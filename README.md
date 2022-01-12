@@ -36,7 +36,7 @@ We carried out this Multiple Linear Regression model using the mixed approach. W
 After that, we built the final model with those 15 features and it explains the 84% variance of the training data and 80% variance of the testing data.
 
 - We have normalized the continuous variables and all the categorical variables are now the dummy variables with level (n-1), so we have the scale of minimum=0, maximum=1 for all the variables.
-- Upon normalizing the values of the predictor variables i.e. the independent variables, from the abouve chart, we can say that features influencing the number of rental bikes are ````temp````, ````2019```` and ````Light Snow/Rain```` followed by ````windspeed```` and ````humidity````.
+- Upon normalizing the values of the predictor variables i.e. the independent variables, from the above chart, we can say that features influencing the number of rental bikes are ````temp````, ````2019```` and ````Light Snow/Rain```` followed by ````windspeed```` and ````humidity````.
 - The demand of bikes rises significantly with the rising temperature, if the year is 2019 and decreases when the weather is little snowy or rainy or windspeed rises.
 
 The final model shows the following relationship between the predictor and target variable : 
